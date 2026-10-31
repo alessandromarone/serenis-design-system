@@ -1,0 +1,7 @@
+/* Serenis Design System — global entry point. Imports only. */
+@import url("https://fonts.googleapis.com/css2?family=Mona+Sans:wght@400;700&display=swap");
+@import url("./styles/tokens/fonts.css");
+@import url("./styles/tokens/colors.css");
+@import url("./styles/tokens/typography.css");
+@import url("./styles/tokens/spacing.css");
+@import url("./styles/components.css");
