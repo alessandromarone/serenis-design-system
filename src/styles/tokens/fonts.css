@@ -1,0 +1,4 @@
+/* Self-hosted brand fonts. Mona Sans 400/700 are loaded from Google Fonts in styles.css
+   (only the Black weight was supplied as a file). */
+@font-face{font-family:"Mona Sans Black";src:url("../../fonts/MonaSans-Black.ttf") format("truetype");font-weight:900;font-style:normal;font-display:swap}
+@font-face{font-family:"Degular Display";src:url("../../fonts/DegularDisplay-Semibold.otf") format("opentype");font-weight:600;font-style:normal;font-display:swap}
