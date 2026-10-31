@@ -1,0 +1,23 @@
+<!-- @dsCard group="Components" viewport="700x340" name="Core" subtitle="Button, Tag, Card" -->
+<!DOCTYPE html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../styles.css">
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script>window.SERENIS_ASSET_BASE='../../';</script>
+<script src="../../_ds_bundle.js"></script>
+<style>body{margin:0;font-family:var(--font-body);color:var(--ink)}</style></head><body><div id="root"></div>
+<script type="text/babel">
+const NS = window.SerenisDesignSystem_452571;
+const { Button, Tag, Card } = NS;
+const Row=({children,bg})=><div style={{display:'flex',flexWrap:'wrap',gap:10,alignItems:'center',padding:12,borderRadius:12,background:bg}}>{children}</div>;
+function App(){return <div style={{padding:12,display:'flex',flexDirection:'column',gap:8}}>
+<Row><Button>Inizia il questionario</Button><Button variant="secondary">Scopri di più</Button><Button variant="outline">Come funziona</Button><Button variant="ghost" size="s">Salta</Button><Button size="s" disabled>Disabilitato</Button></Row>
+<Row bg="var(--violet-500)"><Button variant="inverse" iconRight="→">Trova il tuo terapeuta</Button><Tag tone="white">1° colloquio gratuito</Tag><Tag tone="dark">Online</Tag></Row>
+<Row><Tag>Ansia</Tag><Tag>Relazioni</Tag><Tag tone="brand">Psicologia</Tag><Tag tone="outline">Autostima</Tag><Tag size="s">Nuovo</Tag></Row>
+<div style={{display:'grid',gridTemplateColumns:'1fr 1fr 1fr',gap:10}}>
+<Card eyebrow="Passo 1" title="Compili il questionario" padding={18}>Pochi minuti.</Card>
+<Card tone="tint" eyebrow="Passo 2" title="Ti abbiniamo" padding={18}>Al professionista giusto.</Card>
+<Card tone="brand" eyebrow="Passo 3" title="Inizia il percorso" padding={18}>Online, quando vuoi.</Card></div>
+</div>}
+ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
+</script></body></html>

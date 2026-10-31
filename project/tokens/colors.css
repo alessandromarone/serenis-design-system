@@ -1,0 +1,14 @@
+:root{
+/* Violet — psicologia (from logo + illustration files) */
+--violet-50:#F6F5FF;--violet-100:#EBE9FE;--violet-200:#D9D3FD;--violet-300:#BBAEFB;--violet-400:#9A85F8;--violet-500:#7A59F5;--violet-600:#6442E0;--violet-700:#4F32B8;--violet-800:#3A2589;--violet-900:#241857;
+/* Neutrals */
+--ink:#141414;--navy:#1E1C3A;--ink-2:#3D3A47;--ink-3:#6B6878;--line:#E2E0EA;--paper:#FFFFFF;--paper-2:#FAF9FD;
+/* Semantic */
+--success:#2E9E6B;--warning:#E0A100;--danger:#D64545;
+/* Aliases */
+--brand:var(--violet-500);--brand-strong:var(--violet-600);--brand-soft:var(--violet-100);
+--surface-page:var(--paper);--surface-tint:var(--violet-100);--surface-brand:var(--violet-500);--surface-dark:var(--navy);--surface-lilac:var(--violet-300);--surface-card:var(--paper);
+--text-body:var(--ink);--text-muted:var(--ink-3);--text-on-brand:#FFFFFF;--text-brand:var(--violet-500);--text-on-tint:var(--violet-900);
+--border-subtle:var(--line);--border-brand:var(--violet-500);
+--illu-line:var(--violet-500);--illu-fill:var(--violet-100);
+}

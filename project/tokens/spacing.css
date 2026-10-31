@@ -1,0 +1,12 @@
+:root{
+--space-1:4px;--space-2:8px;--space-3:12px;--space-4:16px;--space-5:24px;--space-6:32px;--space-7:48px;--space-8:64px;--space-9:96px;
+--radius-s:8px;--radius-m:16px;--radius-l:28px;--radius-xl:48px;--radius-pill:999px;
+--shadow-soft:0 2px 6px rgba(36,24,87,.06),0 12px 32px rgba(36,24,87,.08);
+--shadow-lift:0 4px 10px rgba(36,24,87,.08),0 20px 48px rgba(36,24,87,.14);
+--ease-soft:cubic-bezier(.3,.7,.3,1); /* @kind other */
+--dur-fast:140ms; /* @kind other */
+--dur-base:240ms; /* @kind other */
+--dur-slow:480ms; /* @kind other */
+/* Instagram canvases */
+--ig-post-w:1080px;--ig-post-h:1350px;--ig-story-h:1920px;--ig-safe:80px;
+}

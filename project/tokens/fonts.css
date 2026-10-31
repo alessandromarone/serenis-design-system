@@ -1,0 +1,4 @@
+/* Mona Sans 400/700 from Google Fonts (only the Black weight is a local file). */
+@import url('https://fonts.googleapis.com/css2?family=Mona+Sans:wght@400;700&display=swap');
+@font-face{font-family:"Mona Sans Black";src:url("../fonts/MonaSans-Black.ttf") format("truetype");font-weight:900;font-style:normal;font-display:swap}
+@font-face{font-family:"Degular Display";src:url("../fonts/DegularDisplay-Semibold.otf") format("opentype");font-weight:600;font-style:normal;font-display:swap}
